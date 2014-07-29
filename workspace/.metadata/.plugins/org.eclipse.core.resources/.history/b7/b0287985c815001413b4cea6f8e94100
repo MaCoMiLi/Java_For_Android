@@ -1,0 +1,30 @@
+/**
+ * 
+ * @author Anil Celebi
+ * @version 1.0.0
+ * @since 27.07.2014
+ *
+ */
+
+import java.util.Scanner;
+
+
+
+public class DumpArgs
+{
+	
+	public static void main(String[] args)
+	{
+		Scanner anil = new Scanner(System.in);
+		
+		double ilksayi, ikincisayi, cevap;
+		
+		System.out.println("Lütfen ilk sayıyı giriniz:");
+		ilksayi = anil.nextDouble();
+		
+		System.out.println("Lütfen ikinci sayıyı giriniz:");
+		ikincisayi = anil.nextDouble();
+		
+		System.out.print("Cevap:");
+		System.out.println(cevap);
+}

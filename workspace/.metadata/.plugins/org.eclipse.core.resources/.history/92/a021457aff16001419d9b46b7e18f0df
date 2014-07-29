@@ -1,0 +1,10 @@
+
+public class onur {
+	
+	public void simpleMessage(){
+		
+		System.out.println("bu diğer sınıf");
+		
+	}
+
+}

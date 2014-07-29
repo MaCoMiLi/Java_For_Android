@@ -1,0 +1,20 @@
+/**
+ * 
+ * @author Anil Celebi
+ * @version 1.0.0
+ * @since 27.07.2014
+ *
+ */
+
+public class DumpArgs
+{
+	
+	public static void main(String[] args)
+	{
+		
+		onur onurObject = new onur();
+		onurObject.simpleMessage();
+		
+	}
+	
+}

@@ -1,0 +1,48 @@
+/**
+ * 
+ * @author Anil Celebi
+ * @version 1.0.0
+ * @since 27.07.2014
+ *
+ */
+
+public class DumpArgs
+{
+	
+	public static void main(String[] args)
+	{
+		
+		int age;
+		age = -4;
+		
+		if(age < 0){
+			
+			System.out.println("Eksi yaş olmaz manyak herif");
+			
+		}
+			
+		switch(age)
+		{
+		
+		case 1:
+			System.out.println("1 yaşındasın");
+			break;
+			
+		case 2:
+			System.out.println("2 yaşındasın");
+			break;
+			
+		case 3:
+			System.out.println("3 yaşındasın");
+			break;
+			
+			default:
+				System.out.println("3 yaşından büyüksün gavat oğlu gavat");
+				break;
+		
+		
+		}
+		
+	}
+	
+}

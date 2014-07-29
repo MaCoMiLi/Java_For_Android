@@ -1,0 +1,78 @@
+/**
+ * 
+ * @author Anil Celebi
+ * @version 1.0.0
+ * @since 26.07.2014
+ *
+ */
+
+public class DumpArgs
+{
+	
+	public static void main(String[] args)
+	{
+	
+		char harf = 'u'; // anlamsız
+		int puan = 28;
+	
+		if (puan >= 90)
+		{
+			harf = 'A';
+			System.out.println("Aldığın not;");
+			System.out.println(puan);
+			System.out.println("------------");
+			System.out.println("Harfli karşılığı;");
+			System.out.println(harf);
+			System.out.println("Testi geçtin");
+			System.out.println("------------");
+		}
+		
+		else if (puan >= 60)
+		{
+			harf = 'B';
+			System.out.println("Aldığın not;");
+			System.out.println(puan);
+			System.out.println("------------");
+			System.out.println("Harfli karşılığı;");
+			System.out.println(harf);
+			System.out.println("------------");
+			System.out.println("Bu testte gayet iyisin");
+		}
+		
+		else if (puan >= 40)
+		{
+			harf = 'C';
+			System.out.println("Aldığın not;");
+			System.out.println(puan);
+			System.out.println("------------");
+			System.out.println("Harfli karşılığı;");
+			System.out.println(harf);
+			System.out.println("------------");
+			System.out.println("Kötü değil fakat daha iyisinin yapabilirsin");
+		}
+		
+		else if (puan >= 30 )
+		{
+			harf = 'D';
+			System.out.println("Aldığın not;");
+			System.out.println(puan);
+			System.out.println("------------");
+			System.out.println("Harfli karşılığı;");
+			System.out.println(harf);
+			System.out.println("------------");
+			System.out.println("Kötü. Bu dersten kaldın");
+		}
+		
+		else
+		{
+			harf = 'F';
+			System.out.println("Aldığın not;");
+			System.out.println(puan);
+			System.out.println("------------");
+			System.out.println("Harfli karşılığı;");
+			System.out.println(harf);
+			System.out.println("------------");
+			System.out.println("Senin okul bitmez hacı");
+		}
+	}
+}
