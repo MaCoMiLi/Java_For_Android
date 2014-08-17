@@ -19,14 +19,14 @@ public class Main {
         System.out.print("\n\nLütfen yapmak istediğiniz işlemin başındaki numarayı yazınız: ");
         secim = input.nextInt();
 
-        do{
+        do {
 
             System.out.print("\nYanlış bir seçim yaptınız. Lütfen listeden yapmak istediğiniz işlemin başındaki numarayı yazınız: ");
             secim = input.nextInt();
 
         }
 
-        while(secim < 1 || secim > 4);
+        while (secim < 1 || secim > 4);
 
         System.out.print("\n\nLütfen 1. sayıyı giriniz: ");
         sayi1 = input.nextDouble();
@@ -34,28 +34,23 @@ public class Main {
         System.out.print("\n\nLütfen 2. sayıyı giriniz: ");
         sayi2 = input.nextDouble();
 
-        if(secim == 1){
+        if (secim == 1) {
 
             toplam = sayi1 + sayi2;
             System.out.print("\n\nToplam = " + toplam);
 
-         }else if (secim == 2){
+        } else if (secim == 2) {
             fark = sayi1 - sayi2;
             System.out.print("\n\nFark = " + fark);
 
-        }else if(secim == 3){
+        } else if (secim == 3) {
             carpim = sayi1 * sayi2;
             System.out.print("\n\nÇarpım = " + carpim);
 
-        }else if(secim ==4){
+        } else if (secim == 4) {
             bolum = sayi1 / sayi2;
-             System.out.print("\n\nBölüm = " + bolum);
-
-        }else{
-            System.out.print("Yanlış bir seçim yaptınız. Lütfen listeden yapmak istediğiniz işlemin başındaki numarayı yazınız");
+            System.out.print("\n\nBölüm = " + bolum);
 
         }
-
-
     }
 }
